@@ -3,7 +3,7 @@ import { FadeIn } from '../common/FadeIn';
 import { Magnet } from '../common/Magnet';
 import { ContactButton } from '../common/ContactButton';
 
-const PORTRAIT_IMAGE = '/assets/noor-avatar.png';
+const PORTRAIT_IMAGE = `${import.meta.env.BASE_URL}assets/noor-avatar.png`;
 
 const NAV_ITEMS = [
   { label: 'About', href: '#about' },
